@@ -1,0 +1,42 @@
+/* TailwindCSS base styles */
+/* see https://tailwindcss.com/docs/functions-and-directives#tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+/* Site Specific */
+/* put site specific css styles here using the @layer directive */
+/* see https://tailwindcss.com/docs/functions-and-directives#layer */
+@layer components {
+    .welcome-headline {
+        @apply text-purple-50;
+    }
+}
+
+.background-image {
+    background-image: url('../img/background/landing_page_background.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Custom CSS */
+.product-button {
+    border-color: rgb(126 34 206);
+    border-width: 1px;
+    padding: 11px 20px 12px;
+    background: #ffffff;
+    font-weight: 600;
+    color: rgb(99 44 166);
+    border-radius: 0.375rem;
+    font-size: 18px;
+}
+
+p {
+    line-height: 28px;
+}
+
+div.content-paragraph p:last-child {
+    padding-top: 46px;
+}

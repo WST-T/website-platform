@@ -1,0 +1,60 @@
+/node_modules
+/exampleSite/public
+/exampleSite/hugo_stats.json
+/img/logos
+/dist
+.hugo_build.lock
+resources/_gen/
+/img/products/*
+/static/images/
+/public/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Terraform files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.*
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+*.tfplan
+*.tfout
+.terraform.lock*
+*tf.state.*
+
+# Lambda package files
+*.zip
+lambda_package/
+
+# AWS credentials
+.aws/
+credentials
+.env
+
+# Logs
+*.log
+*.log.*
+*.log/*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.directory
+*.swp
+*~
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.settings/

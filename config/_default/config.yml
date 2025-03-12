@@ -1,0 +1,15 @@
+languageCode: en-us
+baseurl: 'http://example.com/'
+title: Datadog
+author: Datadog
+copyright: 'Copyright © 2019-2023, Datadog, all rights reserved.'
+params:
+  name: Datadog
+  description: Datadog websites platform team take home assessment.
+  github_user: guacbot
+  github_repo: 'https://github.com/DataDog/websites-platform-take-home'
+  github_banner: true
+  favicon: favicon.ico
+markup:
+  highlight:
+    style: dracula

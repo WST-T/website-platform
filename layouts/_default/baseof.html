@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body>
+    <header>
+      <div class="container">
+        <h1>Website Platform</h1>
+        <nav>
+          <a href="/" class="nav-link">Home</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="container">
+        <h1>Modern Monitoring Solutions</h1>
+        <p>Discover our powerful tools designed to give you complete visibility into your systems and applications.</p>
+      </div>
+    </div>
+
+    <main>
+      <div class="container">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; {{ now.Format "2006" }} Website Platform. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

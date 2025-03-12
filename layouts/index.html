@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article class="2xl:w-screen w-full px-6 sm:px-24 xl:px-36 2xl:px-44 background-image justify-self-center text-white min-h-fit py-16">
+    <h1 class="text-5xl pb-8 welcome-headline">{{ .Title }}</h1>
+    <div class="content-paragraph mx-auto text-left sm:text-xl text-base">
+        {{ .Content }}
+    </div>
+    {{ partial "product-offerings" }}
+</article>
+{{ end }}
