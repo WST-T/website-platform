@@ -9,7 +9,8 @@ This project demonstrates a complete workflow for building, deploying, and maint
 - Automated image downloader service
 - Infrastructure as Code (Terraform) for AWS deployment
 - CI/CD automation scripts
-
+- Link of my deployment : https://d34exprqlfcprv.cloudfront.net/
+  
 ## Prerequisites
 
 ### Local Development Setup
